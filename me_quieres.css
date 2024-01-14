@@ -38,15 +38,15 @@ section {
     display: grid;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-    width: 1200px;
-    height: 600px;
+    width: 1183px;
+    height: 2560px;
     align-items: center;
     justify-items: center;
 }
 
 body {
-    max-width: 1200px;
-    max-height: 673px;
+    max-width: 1183px;
+    max-height: 2560px;
     margin: 0 auto;
     background-image: url(/foto/jotaro-kujo-black-aesthetic-wallpaper.jpg);
     background-repeat: no-repeat; 
