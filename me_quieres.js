@@ -1,8 +1,7 @@
 let nob = document.getElementById("No")
 document.addEventListener("DOMContentLoaded", function() {
     // Get the audio element
-    var audio = document.getElementById("myAudio");
-    audio.play()
+    var audio = document.getElementById("myAudio").play();
     // You can add more controls and interactions here if needed
 });
 
