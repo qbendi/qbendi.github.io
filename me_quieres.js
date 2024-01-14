@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     sib.addEventListener("click", function() {
-        var audio = document.getElementById("myAudio");
+        var audio = new Audio('foto/tuconel.mp3');
         audio.play();
         document.getElementById("p").removeAttribute("hidden");
         console.log("click");
