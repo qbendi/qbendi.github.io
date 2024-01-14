@@ -1,9 +1,5 @@
+document.getElementById("myAudio").play();
 let nob = document.getElementById("No")
-document.addEventListener("DOMContentLoaded", function() {
-    // Get the audio element
-    var audio = document.getElementById("myAudio").play();
-    // You can add more controls and interactions here if needed
-});
 
 nob.addEventListener("mousemove", function() {
     let alto = random(1,10)
@@ -23,6 +19,7 @@ function random(min,max) {
 let sib = document.getElementById("Si")
 
 sib.addEventListener("click", function() {
+    document.getElementById("myAudio").play();
     document.getElementById("p").removeAttribute("hidden")
     console.log("click")
     document.getElementById("1").style.color = "transparent";
