@@ -52,8 +52,12 @@ body {
     background-image: url(/foto/jotaro-kujo-black-aesthetic-wallpaper.jpg);
     background-repeat: no-repeat; 
     background-position: center center; 
-     background-size: cover;
+    background-size: cover; /* Adjusted to cover the entire container */
     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Vertically center the content */
 }
 
 p {
