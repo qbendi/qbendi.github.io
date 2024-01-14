@@ -39,14 +39,14 @@ section {
     display: grid;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-    width: 1183px;
+    width: 720px;
     height: 2560px;
     align-items: center;
     justify-items: center;
 }
 
 body {
-    max-width: 1183px;
+    max-width: 720px;
     max-height: 2560px;
     margin: 0 auto;
     background-image: url(/foto/jotaro-kujo-black-aesthetic-wallpaper.jpg);
