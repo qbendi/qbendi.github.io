@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Get the audio element
     var audio = document.getElementById("myAudio");
-
+    audio.play();
     // Get the elements for interaction
     var nob = document.getElementById("No");
     var sib = document.getElementById("Si");
