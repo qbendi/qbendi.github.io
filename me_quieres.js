@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Get the audio element
-    var audio = document.getElementById("myAudio");
-    audio.play();
+
     // Get the elements for interaction
     var nob = document.getElementById("No");
     var sib = document.getElementById("Si");
@@ -15,6 +14,8 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     sib.addEventListener("click", function() {
+        var audio = document.getElementById("myAudio");
+        audio.play();
         document.getElementById("p").removeAttribute("hidden");
         console.log("click");
         document.getElementById("1").style.color = "transparent";
