@@ -1,30 +1,34 @@
+let nob = document.getElementById("No")
 document.addEventListener("DOMContentLoaded", function() {
     // Get the audio element
-
-    // Get the elements for interaction
-    var nob = document.getElementById("No");
-    var sib = document.getElementById("Si");
-
-    nob.addEventListener("click", function() {
-        let alto = random(1, 10);
-        let ancho = random(1, 10);
-        console.log(alto, ancho);
-        nob.style.gridRow = alto;
-        nob.style.gridColumn = ancho;
-    });
-
-    sib.addEventListener("click", function() {
-        var audio = new Audio('foto/tuconel.mp3');
-        audio.play();
-        document.getElementById("p").removeAttribute("hidden");
-        console.log("click");
-        document.getElementById("1").style.color = "transparent";
-        document.getElementById("Si").style.display = "none";
-        document.getElementById("No").style.display = "none";
-    });
+    var audio = document.getElementById("myAudio");
+    
+    // You can add more controls and interactions here if needed
 });
 
-function random(min, max) {
-    let numero = Math.floor(Math.random() * (max - min + 1) + min);
-    return numero;
+nob.addEventListener("mousemove", function() {
+    let alto = random(1,10)
+    let ancho = random(1,10)
+    console.log(alto, ancho)
+    nob.style.gridRow = alto;
+    nob.style.gridColumn = ancho;
+
+    })
+
+
+function random(min,max) {
+    let numero = Math.floor(Math.random() * (max - min + 1) + min)
+    return numero
 }
+
+let sib = document.getElementById("Si")
+
+sib.addEventListener("click", function() {
+    document.getElementById("p").removeAttribute("hidden")
+    console.log("click")
+    document.getElementById("1").style.color = "transparent";
+    document.getElementById("Si").style.display = "none";
+    document.getElementById("No").style.display = "none";
+
+
+})
