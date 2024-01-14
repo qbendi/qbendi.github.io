@@ -1,4 +1,10 @@
 let nob = document.getElementById("No")
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the audio element
+    var audio = document.getElementById("myAudio");
+
+    // You can add more controls and interactions here if needed
+});
 
 nob.addEventListener("mousemove", function() {
     let alto = random(1,10)
@@ -23,4 +29,6 @@ sib.addEventListener("click", function() {
     document.getElementById("1").style.color = "transparent";
     document.getElementById("Si").style.display = "none";
     document.getElementById("No").style.display = "none";
+
+
 })
